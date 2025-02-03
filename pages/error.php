@@ -6,13 +6,13 @@
   <?php 
     $website_title = 'Ошибка 404';
     $link_head = '../';
-    require '../components/head.php';
+    require '../components.blok/head.php';
   ?>
 </head>
 
 <body class="page">
   <div class="d-flex flex-column container py-3 vw-100 vh-100">
-    <?php require '../components/header.php'; ?>
+    <?php require '../components.blok/header.php'; ?>
     <main class="px-3 mt-auto">
       <h1>Что-то пошло не так(</h1>
       <p class="lead"><?=$website_title?> xD</p>
@@ -21,7 +21,7 @@
       </p>
     </main>
     <div class="mt-auto">
-      <?php require '../components/footer.php'; ?>
+      <?php require '../components.blok/footer.php'; ?>
     </div>
   </div>
 </body>

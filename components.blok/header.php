@@ -24,7 +24,7 @@
 
     <div class="mt-2 mt-md-0 ms-md-auto">
       <a class="btn btn-outline-primary" href="#">Войти</a>
-      <a class="btn btn-outline-primary" href="#">Регистрация</a>
+      <a class="btn btn-outline-primary" href="../pages/reg.php">Регистрация</a>
     </div>
   </div>
 </header>
